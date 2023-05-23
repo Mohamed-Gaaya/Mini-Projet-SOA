@@ -6,6 +6,7 @@ import { ADD_PROJECT } from '../mutations/projectMutations';
 import { GET_PROJECTS } from '../queries/projectQueries';
 import { GET_CLIENTS } from '../queries/clientQueries';
 
+
 export default function AddProjectModal() {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
@@ -59,6 +60,7 @@ export default function AddProjectModal() {
               <div>New Project</div>
             </div>
           </button>
+          
 
           <div
             className='modal fade'
