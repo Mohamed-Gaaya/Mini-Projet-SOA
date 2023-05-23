@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './assets/logo.png';
+import logo from './assets/Mini-projet.png';
 
 export default function Header() {
   return (
@@ -7,7 +7,7 @@ export default function Header() {
       <div className='container'>
         <a className='navbar-brand' href='/'>
           <div className='d-flex'>
-            <img src={logo} alt='logo' className='mr-2' />
+            <img src={logo} alt='logo' className='mr-2' style={{width:"auto",height:"auto"}}/>
             <div>Mini-Projet</div>
           </div>
         </a>
