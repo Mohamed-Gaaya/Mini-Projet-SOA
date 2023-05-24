@@ -10,7 +10,7 @@ faites avec GraphQl.
 Cassandra, une base de données NoSQLhautement évolutive et distribuée. J'ai donc utilisé le swagger API pour créer les "flights", et les
 fetch dans mon application avec REST API. 
 GraphQL:
-------------
+
 Avantages :
 ------------
 Souplesse des requêtes : GraphQL permet aux clients de spécifier les données exactes dont ils ont besoin, évitant ainsi le problème de 
@@ -48,13 +48,13 @@ Pour l'interface flight run:
 $cd flight
 npm run start:frontend
 ```
-ouvrir un autre terminal:
+Ouvrir un autre terminal:
 ------------
 ```
 $cd flight
 npm run start:backend
 ```
-pour l'interface clinet et projet: 
+Pour l'interface clinet et projet: 
 ------------
 ```
 $cd client
