@@ -54,6 +54,7 @@ $cd client
 $npm start
 ```
 Pour le Backend Mongoose: 
+------------
 ```
 $npm run dev
 ```
