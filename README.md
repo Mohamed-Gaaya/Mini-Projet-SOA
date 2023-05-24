@@ -1,5 +1,5 @@
 # Mini-Projet-SOA
-Ce projet est réalisé à la base des microservices suivants: "GraphQl" et "REST", il contient bie nevidément deux parties, "client"
+Ce projet est réalisé à la base des microservices suivants: "GraphQl" et "REST", il contient bien evidément deux parties, "client"
 et "flight", chaaue section est réalisé par différents microservices, "client" avec "GraphQl", "flight" avec "REST", mais il communiquent
 avec eux-memes, les interfaces sont connectées à travers "REACT" qui est le FRONT-END utilisé, tout au long avec Express et NodeJs.
 Pour la base de données j'ai fait le choix dedeux bases différentes; "SQL" et "NOSQL";
