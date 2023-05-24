@@ -42,12 +42,23 @@ Pour l'interface flight run:
 ```
 $cd flight
 ```
-
+```
 npm run start:frontend
+```
 ouvrir un autre terminal:
-cd flight 
+```
+$cd flight
+```
+```
 npm run start:backend
+```
 pour l'interface clinet et projet: 
-cd client 
-npm start
-npm run dev
+```
+$cd client
+```
+```
+$npm start
+```
+```
+$npm run dev
+```
