@@ -8,9 +8,9 @@ projets, les clients et les projets sont liés, chaque client a son propre proje
 faites avec GraphQl.
 "NOSQL" est constituée de "DataStax Astra" est une entreprise qui propose une plateforme complète de gestion des données basée sur Apache
 Cassandra, une base de données NoSQLhautement évolutive et distribuée. J'ai donc utilisé le swagger API pour créer les "flights", et les
-fetch dans mon application avec REST API. 
-GraphQL:
+fetch dans mon application avec REST API.
 
+GraphQL:
 Avantages :
 ------------
 Souplesse des requêtes : GraphQL permet aux clients de spécifier les données exactes dont ils ont besoin, évitant ainsi le problème de 
