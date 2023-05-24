@@ -39,7 +39,10 @@ Manque de flexibilité pour les requêtes complexes : REST peut devenir limité 
 nécessitant des jointures ou des filtres avancés.
 
 Pour l'interface flight run:
-cd flight
+```
+$cd flight
+```
+
 npm run start:frontend
 ouvrir un autre terminal:
 cd flight 
