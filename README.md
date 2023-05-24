@@ -34,6 +34,7 @@ Simplicité et facilité d'utilisation : REST est basé sur des principes simple
 (GET, POST, PUT, DELETE) pour l'interaction entre les services.
 Flexibilité : REST permet une conception flexible des API, ce qui facilite l'intégration avec différentes plateformes et clients.
 Découplage : Les services REST sont indépendants les uns des autres, ce qui favorise le découplage et la modularité.
+
 Inconvénients :
 ------------
 
