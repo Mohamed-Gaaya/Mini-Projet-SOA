@@ -37,3 +37,14 @@ Surcharge du réseau : REST utilise souvent le format JSON pour les échanges de
 en cas de transfert de grandes quantités de données.
 Manque de flexibilité pour les requêtes complexes : REST peut devenir limité lorsqu'il s'agit de traiter des requêtes complexes 
 nécessitant des jointures ou des filtres avancés.
+
+Pour l'interface flight run:
+cd flight
+npm run start:frontend
+ouvrir un autre terminal:
+cd flight 
+npm run start:backend
+pour l'interface clinet et projet: 
+cd client 
+npm start
+npm run dev
