@@ -41,24 +41,19 @@ nécessitant des jointures ou des filtres avancés.
 Pour l'interface flight run:
 ```
 $cd flight
-```
-```
 npm run start:frontend
 ```
 ouvrir un autre terminal:
 ```
 $cd flight
-```
-```
 npm run start:backend
 ```
 pour l'interface clinet et projet: 
 ```
 $cd client
-```
-```
 $npm start
 ```
+Pour le Backend Mongoose: 
 ```
 $npm run dev
 ```
