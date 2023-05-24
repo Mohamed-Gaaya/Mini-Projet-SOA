@@ -48,3 +48,8 @@ code {
 .icon {
   margin-right: 5px;
 }
+.btn-orange {
+  background-color: rgb(235, 149, 30);
+  color: white;
+  /* Add any other styles as needed */
+}

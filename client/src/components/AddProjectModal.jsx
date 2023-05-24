@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPlane } from 'react-icons/fa';
 import { useState } from 'react';
 import { FaList } from 'react-icons/fa';
 import { useMutation, useQuery } from '@apollo/client';
@@ -12,6 +13,9 @@ export default function AddProjectModal() {
   const [description, setDescription] = useState('');
   const [clientId, setClientId] = useState('');
   const [status, setStatus] = useState('new');
+  const handleClick = () => {
+    window.location.href = 'http://localhost:3000/'; // Replace with your desired URL
+  };
 
   const [addProject] = useMutation(ADD_PROJECT, {
     variables: { name, description, clientId, status },
@@ -60,8 +64,16 @@ export default function AddProjectModal() {
               <div>New Project</div>
             </div>
           </button>
-          
-
+          <button
+      type='button'
+      className='btn btn-orange'
+      onClick={handleClick}
+    >
+      <div className='d-flex align-items-center'>
+        <FaPlane className='icon' style={{ fontSize: '1rem', marginRight: '0.5rem' }} />
+        <div>Flights</div>
+      </div>
+    </button>
           <div
             className='modal fade'
             id='addProjectModal'
