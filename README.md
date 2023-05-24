@@ -10,7 +10,9 @@ faites avec GraphQl.
 Cassandra, une base de données NoSQLhautement évolutive et distribuée. J'ai donc utilisé le swagger API pour créer les "flights", et les
 fetch dans mon application avec REST API. 
 GraphQL:
+------------
 Avantages :
+------------
 Souplesse des requêtes : GraphQL permet aux clients de spécifier les données exactes dont ils ont besoin, évitant ainsi le problème de 
 surcharge ou de sous-charge de données typique des API REST.
 Réduction des allers-retours : GraphQL permet de récupérer plusieurs données en une seule requête, réduisant ainsi les allers-retours entre
@@ -19,6 +21,7 @@ Documentation automatique : GraphQL génère automatiquement une documentation c
 l'utilisation pour les développeurs.
 
 Inconvénients :
+------------
 Complexité du côté serveur : La mise en place d'un serveur GraphQL peut être plus complexe que REST en raison de la nécessité de mettre en
 place un moteur d'exécution de requêtes flexible.
 Surcharge du serveur : Si mal utilisé, GraphQL peut entraîner une surcharge du serveur en raison de la possibilité de demander des données
@@ -26,12 +29,14 @@ excessives ou des requêtes complexes.
 
 REST (Representational State Transfer) :
 Avantages :
+------------
 
 Simplicité et facilité d'utilisation : REST est basé sur des principes simples et utilise les méthodes HTTP standard
 (GET, POST, PUT, DELETE) pour l'interaction entre les services.
 Flexibilité : REST permet une conception flexible des API, ce qui facilite l'intégration avec différentes plateformes et clients.
 Découplage : Les services REST sont indépendants les uns des autres, ce qui favorise le découplage et la modularité.
 Inconvénients :
+------------
 
 Surcharge du réseau : REST utilise souvent le format JSON pour les échanges de données, ce qui peut entraîner une surcharge du réseau
 en cas de transfert de grandes quantités de données.
@@ -39,16 +44,19 @@ Manque de flexibilité pour les requêtes complexes : REST peut devenir limité 
 nécessitant des jointures ou des filtres avancés.
 
 Pour l'interface flight run:
+------------
 ```
 $cd flight
 npm run start:frontend
 ```
 ouvrir un autre terminal:
+------------
 ```
 $cd flight
 npm run start:backend
 ```
 pour l'interface clinet et projet: 
+------------
 ```
 $cd client
 $npm start
