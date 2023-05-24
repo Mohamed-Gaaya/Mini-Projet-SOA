@@ -15,8 +15,7 @@ Avantages :
 ------------
 Souplesse des requêtes : GraphQL permet aux clients de spécifier les données exactes dont ils ont besoin, évitant ainsi le problème de 
 surcharge ou de sous-charge de données typique des API REST.
-Réduction des allers-retours : GraphQL permet de récupérer plusieurs données en une seule requête, réduisant ainsi les allers-retours entre
-le client et le serveur.
+Réduction des allers-retours : GraphQL permet de récupérer plusieurs données en une seule requête, réduisant ainsi les allers-retours entre le client et le serveur.
 Documentation automatique : GraphQL génère automatiquement une documentation complète de l'API, ce qui facilite la compréhension et
 l'utilisation pour les développeurs.
 
